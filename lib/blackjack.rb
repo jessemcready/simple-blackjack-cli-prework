@@ -39,7 +39,11 @@ def hit?(total)
   # code hit? here
   prompt_user
   input = get_user_input
-  case total:
+  case input
+    when "h"
+      return total += deal_card
+    when
+  end
 end
 
 def invalid_command
